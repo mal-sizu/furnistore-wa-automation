@@ -1,0 +1,273 @@
+[
+  {
+    "id": "welcome_intro",
+    "name": "Welcome & Intro",
+    "description": "A warm welcome message with a brand image and quick action buttons.",
+    "messages": [
+      {
+        "type": "text",
+        "content": {
+          "body": "👋 Welcome to our store! We're thrilled to have you here. Explore our amazing products and services."
+        }
+      },
+      {
+        "type": "image_bundle",
+        "content": [
+          {
+            "url": "/placeholder.svg?height=300&width=400",
+            "caption": "Our beautiful storefront!"
+          },
+          {
+            "url": "/placeholder.svg?height=200&width=300",
+            "caption": "Happy customers enjoying our products."
+          }
+        ]
+      },
+      {
+        "type": "interactive_buttons",
+        "content": {
+          "bodyText": "What would you like to do next?",
+          "buttons": [
+            {
+              "id": "view_products",
+              "title": "View Products"
+            },
+            {
+              "id": "contact_support",
+              "title": "Contact Support"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "electronics_catalog",
+    "name": "Electronics Catalog",
+    "description": "A detailed list of our electronics categories.",
+    "messages": [
+      {
+        "type": "text",
+        "content": {
+          "body": "Here are our top electronics categories. Tap 'View Categories' to explore more!"
+        }
+      },
+      {
+        "type": "interactive_list",
+        "content": {
+          "type": "list",
+          "header": {
+            "type": "text",
+            "text": "Electronics Categories"
+          },
+          "body": {
+            "text": "Select a category to see available items:"
+          },
+          "action": {
+            "button": "View Categories",
+            "sections": [
+              {
+                "rows": [
+                  {
+                    "id": "cat_smartphones",
+                    "title": "Smartphones",
+                    "description": "Latest models and accessories"
+                  },
+                  {
+                    "id": "cat_laptops",
+                    "title": "Laptops & PCs",
+                    "description": "Powerful machines for work and play"
+                  }
+                ]
+              },
+              {
+                "rows": [
+                  {
+                    "id": "cat_accessories",
+                    "title": "Accessories",
+                    "description": "Headphones, chargers, cases"
+                  },
+                  {
+                    "id": "cat_gaming",
+                    "title": "Gaming Gear",
+                    "description": "Consoles, games, and peripherals"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "special_offer",
+    "name": "Special Offer",
+    "description": "A limited-time discount offer with an image.",
+    "messages": [
+      {
+        "type": "image_bundle",
+        "content": [
+          {
+            "url": "/placeholder.svg?height=400&width=600",
+            "caption": "Limited Time Offer! Get 20% off!"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "content": {
+          "body": "🎉 Don't miss out on our special 20% discount on all electronics this week! Use code 'SAVE20' at checkout."
+        }
+      },
+      {
+        "type": "interactive_buttons",
+        "content": {
+          "bodyText": "Ready to grab your discount?",
+          "buttons": [
+            {
+              "id": "shop_now",
+              "title": "Shop Now"
+            },
+            {
+              "id": "learn_more",
+              "title": "Learn More"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "nova_moonlight",
+    "name": "Nova Moonlight",
+    "description": "lorem ipsum dolor sit amet",
+    "messages": [
+      {
+        "type": "text",
+        "content": {
+          "body": "byeee"
+        }
+      }
+    ]
+  },
+  {
+    "id": "main_menu",
+    "name": "Main Menu",
+    "messages": [
+      {
+        "type": "interactive_list",
+        "content": {
+          "type": "list",
+          "header": {
+            "type": "text",
+            "text": "Small Notice to our island wide trusted Customers:"
+          },
+          "body": {
+            "text": "අපි මිල ඉතා සුළු ප්‍රමාණයක් වැඩි උසස් තත්වයක් නඩත්තු කරන  නිපැයුම්කරුවන් සමඟ පමණක් සම්බන්ද වන ආයතනයක්. තරමක් අඩු මිලට නිශ්පාදනය කරන නිපැයුම්කරුවන්ගෙ භාණ්ඩ වල පාරිභෝගික ගැටලු ඉහළ වීම ඊට හේතුවයි. එම මිලට ගෙන අවම මුදලට ලබාදීමෙන් ඉහළ විකිණුම් ප්‍රමාණයක් අපි අපේක්ශා කරනව. \\n\\nඉතින් මේ අපට ලබාදිය හැකි අවම මිල ගණන් වනවා සේම එවැනි විශේෂ මිලකට උසස් තත්වයෙ භාණ්ඩ ලබාගන්න ඔබට දැන් අවස්ථාවක් ලැබිල තියෙනව."
+          },
+          "action": {
+            "button": "Browse",
+            "sections": [
+              {
+                "rows": [
+                  {
+                    "id": "dressing-tables",
+                    "title": "🪞 Dressing Tables",
+                    "description": "තේක්ක සහ මෙලමයින් | Teak & Melamine models for your selection."
+                  },
+                  {
+                    "id": "beds",
+                    "title": "🛏 Beds & Mattresse",
+                    "description": "තේක්ක, ඇක්ටෝනියා ඇඳන් | Spring, Form & Hybrid mattresses"
+                  },
+                  {
+                    "id": "room-packages",
+                    "title": "📦 Bed Room Sets",
+                    "description": "ඇඳ, කබඩ්, මේස සමඟ | Complete sets with bed, cupboard & table."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "interactive_buttons",
+        "content": {
+          "bodyText": "Or you can do this instead",
+          "buttons": [
+            {
+              "id": "place_order",
+              "title": "Place an Order"
+            },
+            {
+              "id": "delivery_fee",
+              "title": "Calculate Delivery Fee"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "main_menu_1",
+    "name": "Main Menu",
+    "description": "Main menu of system",
+    "messages": [
+      {
+        "type": "interactive_list",
+        "content": {
+          "type": "list",
+          "header": {
+            "type": "text",
+            "text": "Small Notice to our island wide trusted Customers:"
+          },
+          "body": {
+            "text": "අපි මිල ඉතා සුළු ප්‍රමාණයක් වැඩි උසස් තත්වයක් නඩත්තු කරන  නිපැයුම්කරුවන් සමඟ පමණක් සම්බන්ද වන ආයතනයක්. තරමක් අඩු මිලට නිශ්පාදනය කරන නිපැයුම්කරුවන්ගෙ භාණ්ඩ වල පාරිභෝගික ගැටලු ඉහළ වීම ඊට හේතුවයි. එම මිලට ගෙන අවම මුදලට ලබාදීමෙන් ඉහළ විකිණුම් ප්‍රමාණයක් අපි අපේක්ශා කරනව. \\n\\nඉතින් මේ අපට ලබාදිය හැකි අවම මිල ගණන් වනවා සේම එවැනි විශේෂ මිලකට උසස් තත්වයෙ භාණ්ඩ ලබාගන්න ඔබට දැන් අවස්ථාවක් ලැබිල තියෙනව."
+          },
+          "action": {
+            "button": "Browse",
+            "sections": [
+              {
+                "rows": [
+                  {
+                    "id": "dressing-tables",
+                    "title": "🪞 Dressing Tables",
+                    "description": "තේක්ක සහ මෙලමයින් | Teak & Melamine models for your selection."
+                  },
+                  {
+                    "id": "beds",
+                    "title": "🛏 Beds & Mattresse",
+                    "description": "තේක්ක, ඇක්ටෝනියා ඇඳන් | Spring, Form & Hybrid mattresses"
+                  },
+                  {
+                    "id": "room-packages",
+                    "title": "📦 Bed Room Sets",
+                    "description": "ඇඳ, කබඩ්, මේස සමඟ | Complete sets with bed, cupboard & table."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "interactive_buttons",
+        "content": {
+          "bodyText": "Or you can do this instead",
+          "buttons": [
+            {
+              "id": "place_order",
+              "title": "Place an Order"
+            },
+            {
+              "id": "delivery_fee",
+              "title": "Calculate Delivery Fee"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]
