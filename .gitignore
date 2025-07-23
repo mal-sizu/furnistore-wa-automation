@@ -1,0 +1,8 @@
+# Environment variables
+.env
+
+# Next.js build output
+/next/**
+
+# Keep env example
+!.env.example
